@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.ipynb_checkpoints/
+.DS_Store
+
+# large dataset/weights — coordinate with team on Git LFS or a shared drive
+# if these get big; remove these lines if you want them tracked directly
+data/raw/
+*.pt
+*.mp4
+*.avi
