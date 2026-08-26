@@ -58,7 +58,36 @@ calls the YOLO integration loop needs — see the docstring at the top of
 Everyone uploads their raw gesture samples (open palm + peace sign, varied
 lighting/angles/backgrounds) here for Member 1 to collect and organize:
 
-**Google Drive link:** _[paste link here]_
+**Google Drive link:** https://drive.google.com/drive/folders/1jIPNTNNkg4BNpLgIzvIwUy1Z510BZGB_
 
-## Status / Challenges
-_(fill in as we go — required for the README grading criteria)_
+## Team Workflow
+
+### Getting the project (first time only)
+git clone https://github.com/mo-wesam-mecha2006/Lightning-McQueen-s-Piston-Cup-Dash.git
+cd Lightning-McQueen-s-Piston-Cup-Dash
+
+### Uploading your own part
+1. Make sure you're on your own branch (not main):
+   git checkout your-branch-name        # e.g. dataset, training, game-logic, integration
+2. Do your work, then:
+   git add .
+   git commit -m "clear description of what you did"
+   git push
+   (first time pushing that branch: git push -u origin your-branch-name)
+3. When your part works end-to-end, open a Pull Request on GitHub from
+   your branch into main so it can be reviewed before merging.
+
+### Running a teammate's part
+1. Get the latest branches list:
+   git fetch origin
+2. Switch to their branch:
+   git checkout their-branch-name
+3. Pull their latest changes:
+   git pull
+4. Run/test it as described in their part of this README.
+5. Go back to your own branch when done:
+   git checkout your-branch-name
+
+### Keeping your branch up to date with main
+git checkout your-branch-name
+git pull origin main
