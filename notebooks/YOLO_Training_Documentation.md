@@ -153,19 +153,8 @@ A third experiment was run without heavy augmentation settings.
 
 ---
 
-## 8. New Data (P12 Set)
 
-A new dataset batch **P12** was collected containing **50 additional images**.
-
-### Next Steps:
-- [ ] Bounding-box labeling
-- [ ] Correct class assignment
-- [ ] Integration into the primary YOLO dataset
-- [ ] Retrain model and compare against baseline
-
----
-
-## 9. Current Project Structure
+## 8. Current Project Structure
 
 ```text
 notebooks/
