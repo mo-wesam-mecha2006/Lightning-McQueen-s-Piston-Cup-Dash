@@ -163,6 +163,10 @@ notebooks/
 models/
 └── best.pt
 
+
+
+After all the experiments, we decided to keep the initial model as our baseline since it achieved the best overall results.
+
 src/
 ├── gesture_detection.py
 └── camera_test.py
